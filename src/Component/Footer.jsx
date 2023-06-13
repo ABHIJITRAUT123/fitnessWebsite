@@ -28,7 +28,7 @@ export default function Footer(){
                         <p>Tel : +91 8799952724</p>
                     </a>
                     <a href="info@urbanfitwellness.com">
-                        <p>Email: info@urbanfitwellness.com</p>
+                        <p>Email : info@urbanfitwellness.com</p>
                     </a>
                 </Address>
                 <div className="d-flex justify-content-around mt-3 mb-3">
