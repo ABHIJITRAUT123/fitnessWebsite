@@ -78,13 +78,47 @@ export default function Home(){
                 <ColorBoxTwo className="position-relative">
                         <DataTwo assName="position-absolute ">
                             <h2 className="mt-5 pt-5">About Us</h2>
-                            <p className="pb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore nihil sit soluta consequuntur sint saepe nobis unde impedit perspiciatis modi aperiam quo perferendis, debitis maxime nam voluptatum ipsum temporibus ipsam?</p>
+                            <p className="pb-5 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore nihil sit soluta consequuntur sint saepe nobis unde impedit perspiciatis modi aperiam quo perferendis, debitis maxime nam voluptatum ipsum temporibus ipsam?</p>
                         </DataTwo>
                     </ColorBoxTwo>
             </section>
 
-            <section className="container mt-5 pt-5 mb-5 pb-5">
-                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+            <section className="container">
+                <h1 className="white text-center">Our Services</h1>
+                <p className="white text-center mb-5 pb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius aliquid optio odit temporibus voluptatibus vero. Accusantium minima quae ex voluptatum, culpa molestiae asperiores impedit fugit in? Repellendus quam quo ducimus.</p>
+                <div className="d-flex justify-content-between">
+                <div className="position-relative">
+                    <div className="box"></div>
+                        <div className="position-absolute">  
+                            <div className="detail">
+                                <h2 className="white">personal trianer</h2>
+                                <p className="white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit deserunt laudantium neque iste autem praesentium asperiores, illum totam voluptatibus delectus, ex doloribus modi quidem. Doloribus magnam cum consequatur impedit at?</p>
+                            </div>
+                    </div>
+                </div>
+                <div className="position-relative">
+                    <div className="box"></div>
+                        <div className="position-absolute">  
+                            <div className="detail">
+                                <h2 className="white">personal trianer</h2>
+                                <p className="white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit deserunt laudantium neque iste autem praesentium asperiores, illum totam voluptatibus delectus, ex doloribus modi quidem. Doloribus magnam cum consequatur impedit at?</p>
+                            </div>
+                    </div>
+                </div>
+                <div className="position-relative">
+                    <div className="box"></div>
+                        <div className="position-absolute">  
+                            <div className="detail">
+                                <h2 className="white">personal trianer</h2>
+                                <p className="white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit deserunt laudantium neque iste autem praesentium asperiores, illum totam voluptatibus delectus, ex doloribus modi quidem. Doloribus magnam cum consequatur impedit at?</p>
+                            </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <section className="container mt-5 pt-5 mb-5 pb-5 ">
+                <div id="carouselExampleControlsNoTouching" class=" slider carousel slide" data-bs-touch="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                         {/* <img src="" class="d-block w-100" alt="..." /> */}
@@ -102,12 +136,12 @@ export default function Home(){
                             <p className="text-center white w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aliquid illo tenetur temporibus distinctio maiores enim nulla aliquam quidem, voluptas quas suscipit assumenda, officiis dolorem sunt fugit eligendi rerum magnam.</p>
                         </div>
                     </div>
-                    <button class="carousel-control-prev white" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon white" aria-hidden="true"></span>
+                    <button class="carousel-control-prev white " type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon slider white" aria-hidden="true"></span>
                         <span class="visually-hidden white">Previous</span>
                     </button>
                     <button class="carousel-control-next white" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                        <span class="carousel-control-next-icon white" aria-hidden="true"></span>
+                        <span class="carousel-control-next-icon slider white" aria-hidden="true"></span>
                         <span class="visually-hidden white">Next</span>
                     </button>
                 </div>

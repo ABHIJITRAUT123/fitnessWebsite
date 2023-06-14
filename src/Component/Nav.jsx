@@ -18,12 +18,19 @@ export default function Nav(){
                         </defs>
                     </svg>
                 </a>
-                <a href="">
-                    <svg width="31" height="22" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <a href="/about-us">
+                    {/* <svg width="31" height="22" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="0.5" y1="0.75" x2="30.5" y2="0.75" stroke="#F0F0F0" stroke-width="1.5"/>
                         <line x1="0.5" y1="10.75" x2="30.5" y2="10.75" stroke="#F0F0F0" stroke-width="1.5"/>
                         <line x1="0.5" y1="20.75" x2="30.5" y2="20.75" stroke="#F0F0F0" stroke-width="1.5"/>
-                    </svg>
+                    </svg> */}
+                    <h3 className="white">About Us</h3>
+                </a>
+                <a href="/contact-us">
+                    <h3 className="white">contact Us</h3>
+                </a>
+                <a href="/our-services">
+                    <h3 className="white">Our Services</h3>
                 </a>
             </div>
         </section>
