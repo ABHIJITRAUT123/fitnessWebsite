@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import FormSection from "../Common/FormSection";
+
 
 var Heading = styled.h1`
 color: white;`
@@ -17,7 +19,7 @@ export default function ContactUs(){
                     </div>
                 </div>
             </section>
-            
+            <FormSection />
         </>
     )
 }
